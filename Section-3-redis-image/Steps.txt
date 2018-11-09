@@ -1,0 +1,5 @@
+1 - Create docker file
+2 - Run: "docker build ."
+3 - Copy the success build Id
+4 - Run: "docker run <BUILT_ID>"
+5 - Tag a image "docker build -t allanweber/my-own-redis:latest ."
