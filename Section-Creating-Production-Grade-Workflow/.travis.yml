@@ -6,4 +6,4 @@ before_install:
   - docker build -t allanweber/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run allanweber/docker-react npm run test -- -- coverage
+  - docker run allanweber/docker-react npm run test -- --coverage
