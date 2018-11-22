@@ -12,7 +12,8 @@ Elastic Beanstalk > Ambiente de servidor web > Configuração básica >
 Plataforma > Docker
 
 ### Generate Api Keys
-* Services = IAM > Users > Add User (Add the name and check **Programmatic access**) > Permissions (check **Attach existing policies directly** ans select the policy **AWSElasticBeanstalkFullAccess**) > Set the keys to **Environment Variables** on Travis CI
-
-
+* Services = IAM > Users > 
+* Add User (Add the name and check **Programmatic access**) > 
+* Permissions (check **Attach existing policies directly** ans select the policy **AWSElasticBeanstalkFullAccess**) > 
+* Set the keys to **Environment Variables** on Travis CI
 

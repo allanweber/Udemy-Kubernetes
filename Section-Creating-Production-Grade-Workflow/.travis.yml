@@ -8,7 +8,6 @@ before_install:
 script:
   - docker run allanweber/docker-react npm run test -- --coverage
 
-
 deploy:
   provider: elasticbeanstalk
   region: "sa-east-1"
